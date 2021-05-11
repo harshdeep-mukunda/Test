@@ -1,0 +1,36 @@
+Motors:
+	M1	:	Milk Motor
+	M2	:	MilkWater Motor
+	M3	:	Water Motor
+	M4	:	Cleaning Water Motor from Water Module
+	M5	:	Stirrer Motor
+	M6	:	HotWater Motor
+
+
+Keys :	Digital_Temperature
+	Key1	:	PA15	:	Milk_Digital_Temperature
+	Key2	:	PC10	:	MilkWater_Digital_Temperature
+	Key3	:	PAC11		Water_Digital_Temperature
+		
+
+
+SPI Lines:	Level Sensor
+	SPICLK	:	PA5	:	Milk Level Sensor
+	SPIMISO	:	PA6	:	MilkWater Level Sensor
+	SPIMOSI	:	PA7	:	Water Level Sensor
+
+
+I2C Lines:	Toggling for Level Sensor
+	SDA	:	PB9	:	Toggling_1
+	SCL	:	PB8	:	Toggling_2
+	
+
+SSR Heater
+	OP1	:	PA12	:	MilkWater_Heater_SSR
+	OP2	:	PF6		:	Water_Heater_SSR
+	OP3	:	PF7		:	Solenoid_Valve
+
+Flow_Sensor
+	Prox1	:	PC10	:	Water_Flow_Sensor
+	Prox2	:	PC11	:	MilkWater_Flow_Sensor
+

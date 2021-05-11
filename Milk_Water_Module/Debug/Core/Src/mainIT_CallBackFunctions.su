@@ -1,0 +1,2 @@
+mainIT_CallBackFunctions.c:23:6:HAL_UART_CpltCallback	16	static
+mainIT_CallBackFunctions.c:227:6:HAL_TIM_PeriodElapsedCallback	16	static

@@ -1,0 +1,54 @@
+#if 0
+
+// Milk and Water Interchanging Logic 
+
+
+	if(Temp_Flag == false)
+				{
+					if(Digital_Sensor_1 <= (WaterAtInitial))	// Water Temp maintain at 75
+					{
+						HeaterMilkON();
+					}
+
+					else if(Digital_Sensor_1 > (WaterAtInitial))
+					{
+						HeaterMilkOFF();
+						//					Temp_Flag = true;
+						Flags.Reheating.BoilerPumpStart = true;
+
+						//					if(Digital_Sensor_2 >= 70 )
+					}
+				}
+
+				if(Digital_Sensor_2 >= MilkAt75 )
+				{
+					Temp_Flag = true;
+				}
+
+				if(Temp_Flag == true)
+				{
+					if(Digital_Sensor_2 <  MilkAt65)		//  Milk Temp less than 65
+					{
+						if(Digital_Sensor_1 < (WaterAt90))
+						{
+							HeaterMilkON();
+						}
+						else if (Digital_Sensor_1 > (WaterAt90))
+						{
+							HeaterMilkOFF();
+						}
+					}
+
+					if((Digital_Sensor_2 <=  MilkAt75) && (Digital_Sensor_2  >= MilkAt65))
+					{
+						if(Digital_Sensor_1 < (WaterAt75))
+						{
+							HeaterMilkON();
+						}
+						else if (Digital_Sensor_1 > (WaterAt75))
+						{
+							HeaterMilkOFF();
+						}
+					}
+				}
+#endif

@@ -1,0 +1,16 @@
+Digital_Sensor.c:18:5:_write	32	static
+Digital_Sensor.c:26:6:delay	16	static
+Digital_Sensor.c:33:6:Set_Pin_Output	48	static
+Digital_Sensor.c:42:6:Set_Pin_Input	48	static
+Digital_Sensor.c:53:9:DS_MilkWater_Start	16	static
+Digital_Sensor.c:72:9:DS_MilkWater_Read	16	static
+Digital_Sensor.c:97:6:DS_MilkWater_Write	24	static
+Digital_Sensor.c:131:9:DS_Milk_Start	16	static
+Digital_Sensor.c:150:9:DS_Milk_Read	16	static
+Digital_Sensor.c:174:6:DS_Milk_Write	24	static
+Digital_Sensor.c:206:9:DS_Water_Start	16	static
+Digital_Sensor.c:227:6:DS_Water_Write	24	static
+Digital_Sensor.c:261:9:DS_Water_Read	16	static
+Digital_Sensor.c:287:7:DigitalSensor_Read_MilkWater	40	static
+Digital_Sensor.c:315:7:DigitalSensor_Read_Water	40	static
+Digital_Sensor.c:343:7:DigitalSensor_Read_Milk	40	static
